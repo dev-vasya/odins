@@ -1,0 +1,1 @@
+In this exercise i'll practice three methods for adding css to html documents(external, internal, inline). And apply some styles for text
