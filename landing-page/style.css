@@ -75,4 +75,39 @@ button {
 
 
 /* Styles for looks section */
+.container-looks {
+    width: 1000px;
+    margin: 0 auto;
+    height: 530px;
+}
+.container-looks h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+   color: #1f2937 ;
+}
+.container-looks-item {
+    display: flex;
+    justify-content: space-between;
+}
 
+.container-looks-item img {
+    width: 200px;
+    height: 350px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    flex: 0;
+}
+.item img {
+    border-radius: 30px;
+}
+.item .text {
+    margin-top: 10px;
+    justify-content: start;
+    font-size: 18px;
+    color: #858688;
+    text-align: center;
+}
