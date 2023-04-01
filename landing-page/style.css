@@ -178,3 +178,12 @@ a {
 .container-sign p:last-child {
     font-size: 18px;
 }
+
+.container-footer {
+    background-color: #1f2837;
+}
+.footer-content {
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
