@@ -60,7 +60,7 @@ a {
     flex: 1;
     justify-content: space-between;
 }
-button {
+.text button {
     width: 140px;
     padding: 10px;
     border-radius: 12px;
@@ -140,3 +140,41 @@ button {
 }
 
 /* Styles for Sign up */
+
+.container-sign {
+    width: 1000px;
+    margin: 70px auto;
+    background-color: #3882f6; 
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+.container-sign-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 100px;
+}
+.container-sign-content .text {
+    flex: 5;
+}
+.container-sign-content .button {
+    flex: 1;
+    
+}
+.button button{
+    padding: 10px 33px;
+    background-color: #3882f6; 
+    color: white;
+    border: 3px solid white;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.container-sign p:first-child {
+    font-size: 22px;
+    font-weight: 700;
+}
+.container-sign p:last-child {
+    font-size: 18px;
+}
