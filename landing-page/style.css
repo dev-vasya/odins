@@ -65,12 +65,21 @@ a {
     width: 140px;
     padding: 10px;
     border-radius: 12px;
-    background-color: #3882f6;
+    background-color: #5487d8;
     color: white;
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: 600;
     border-style: none;
 }
+.text button:hover  {
+    background-color: #2672eb;
+    color: black;
+}
+.text button:active {
+    background-color: #239264; 
+    color: white;
 
+}
 
 /* Styles for looks section */
 .container-looks {
@@ -170,6 +179,7 @@ a {
     color: white;
     border: 3px solid white;
     border-radius: 8px;
+    font-weight: 700;
     font-size: 16px;
 }
 .container-sign p:first-child {
@@ -188,3 +198,24 @@ a {
     color: white;
     text-align: center;
 }
+
+.button button:hover {
+    background-color: #324668;
+    color: rgba(0, 0, 0, 0.7);
+    border-color:rgba(0, 0, 0, 0.7) ;
+}
+
+.button button:active {
+    background-color: #239264; 
+    color: white;
+    border: 3px solid white;
+}
+
+/* for <a> hover*/
+a:hover {
+    text-decoration: underline;
+    color: rgb(140, 140, 240)
+}
+a:active {
+   color: #239264; 
+}   
