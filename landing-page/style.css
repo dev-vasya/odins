@@ -90,12 +90,10 @@ button {
     display: flex;
     justify-content: space-between;
 }
-
 .container-looks-item img {
     width: 200px;
     height: 350px;
 }
-
 .item {
     display: flex;
     flex-direction: column;
