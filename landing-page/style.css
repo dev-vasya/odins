@@ -20,7 +20,7 @@ a {
 .container {
     width: 1000px;
     margin: 0 auto;
-    height: 600px;
+    padding-bottom: 100px;
 }
 .icon {
     background-color: white;
@@ -58,10 +58,7 @@ a {
     display: flex;
     flex-flow: column;
     flex: 1;
-    justify-content: space-evenly;
-}
-.closet {
-    flex: 1;
+    justify-content: space-between;
 }
 button {
     width: 140px;
@@ -78,13 +75,15 @@ button {
 .container-looks {
     width: 1000px;
     margin: 0 auto;
-    height: 530px;
+    padding: 35px 0 100px 0;
 }
 .container-looks h2 {
     text-align: center;
     font-size: 36px;
     font-weight: 900;
    color: #1f2937 ;
+   margin: 0;
+   padding-bottom: 30px ;
 }
 .container-looks-item {
     display: flex;
@@ -92,7 +91,8 @@ button {
 }
 .container-looks-item img {
     width: 200px;
-    height: 350px;
+    height: 260px;
+    border: 5px solid  #3882f6;
 }
 .item {
     display: flex;
@@ -109,3 +109,34 @@ button {
     color: #858688;
     text-align: center;
 }
+
+
+/* Styles for quote */
+.container-inspiraion {
+    background-color: #e5e7eb;
+}
+.container-inspiraion-quote {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 70px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+.quote blockquote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937ce;
+    font-weight: lighter;
+    margin: 0;
+}
+.quote p {
+    text-align: right;
+    font-size: 28px;
+    font-weight: 900;
+    color: #090b0fce;
+}
+
+/* Styles for Sign up */
