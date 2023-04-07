@@ -201,7 +201,7 @@ a {
 
 .button button:hover {
     background-color: #96b7f0;
-    color: rgba(88, 88, 88, 0.7);
+    color: rgba(0, 0, 0, 0.7);
     border-color:rgba(66, 66, 66, 0.7) ;
 }
 
