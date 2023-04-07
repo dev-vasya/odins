@@ -18,32 +18,31 @@ function getComputerChoice() {
 function playRound( playerSelection, computerSelection) {
     // case for "Rock"
     if(playerSelection === "rock") {
-        if(playerSelection === "rock" && computerSelection === "scissors"){
-            return `You Win! ${playerSelection} beats ${computerSelection} `
-        } else if (playerSelection === "rock" && computerSelection === "paper"){
-            return `You Lose! ${playerSelection} beats ${computerSelection} `
+        if(computerSelection === "scissors"){
+            return "You Win! \nRock beats Scissors "
+        } else if (computerSelection === "paper"){
+            return "You Lose! \nPaper beats Rock "
         } else {
-            return "It's Draw!"
+            return "It's Draw! \nRock = Rock"
         }
     }
     // Case for "Paper"
     if (playerSelection === "paper")
-        if(playerSelection === "paper" && computerSelection === "rock"){
-            return `You Win! ${playerSelection} beats ${computerSelection}`
-        } else if (playerSelection === "paper" && computerSelection === "scissors"){
-            return `You Lose! ${playerSelection} beats ${computerSelection}`
+        if(computerSelection === "rock"){
+            return "You Win! \nPaper beats Rock"
+        } else if (computerSelection === "scissors"){
+            return "You Lose! \nScissors beats Paper"
         } else {
-            return "It's Draw!"
+            return "It's Draw! \nPaper = Paper"
         }
     // Case for "Scissors"
     if (playerSelection === "scissors") {
-        if (playerSelection === "scissors")
-        if(playerSelection === "scissors" && computerSelection === "paper"){
-            return `You Win! ${playerSelection} beats ${computerSelection} `
-        } else if (playerSelection === "scissors" && computerSelection === "rock"){
-            return `You Lose! ${playerSelection} beats ${computerSelection} `
+        if(computerSelection === "paper"){
+            return "You Win! \nScissors beats Paper"
+        } else if (computerSelection === "rock"){
+            return "You Lose! \nRock beats Scissors" 
         } else {
-            return "It's Draw!"
+            return "It's Draw! \nScissors = Scissors"
         }
     }
 }
